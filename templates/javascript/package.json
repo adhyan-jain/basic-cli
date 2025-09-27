@@ -1,0 +1,18 @@
+{
+  "name": "@adhyanjain/cli-something",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "cli-something": "bin/create-project"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/create-project"
+  },
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^5.6.2",
+    "inquirer": "^12.9.6",
+    "ncp": "^2.0.0"
+  }
+}

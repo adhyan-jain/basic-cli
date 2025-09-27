@@ -1,0 +1,29 @@
+{
+  "name": "@adhyanjain/cli-something",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cli-something": "bin/create-project"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^5.6.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "^12.9.6",
+    "ncp": "^2.0.0"
+  }
+}
