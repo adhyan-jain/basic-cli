@@ -1,18 +1,27 @@
 {
-  "name": "typescript-template",
-  "version": "1.0.0",
-  "description": "A CLI written in TypeScript",
-  "main": "dist/index.js",
-  "type": "module",
+  "name": "typescript",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/cli.js",
-    "test": "echo \"No tests specified\" && exit 1"
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "keywords": [],
-  "author": "adhyanjain",
-  "license": "MIT",
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "next": "15.5.4"
+  },
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "@eslint/eslintrc": "^3"
   }
 }
